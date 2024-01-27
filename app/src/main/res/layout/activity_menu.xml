@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/menutama"
+    tools:context=".menu"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Button
+            android:id="@+id/buttondiag"
+            android:layout_width="match_parent"
+            android:layout_height="73dp"
+            android:layout_marginTop="330dp"
+            android:background="@color/white"
+            android:onClick="diagnosa"
+            android:text="Diagnosa"
+            android:textColor="@color/black"
+            tools:layout_editor_absoluteX="-12dp"
+            tools:layout_editor_absoluteY="503dp" />
+
+        <Button
+            android:id="@+id/buttondaf"
+            android:layout_width="match_parent"
+            android:layout_height="73dp"
+            android:layout_marginStart="-412dp"
+            android:layout_marginTop="415dp"
+            android:paddingLeft="40dp"
+            android:background="@color/white"
+            android:onClick="daftar"
+            android:text="Daftar penyakit pada gigi"
+            android:textColor="@color/black"
+            tools:layout_editor_absoluteX="-12dp"
+            tools:layout_editor_absoluteY="503dp" />
+
+        <Button
+            android:id="@+id/buttonriwa"
+            android:layout_width="match_parent"
+            android:layout_height="73dp"
+            android:layout_marginStart="-410dp"
+            android:layout_marginTop="500dp"
+            android:paddingLeft="40dp"
+            android:background="@color/white"
+            android:onClick="riwayat"
+            android:text="RIWAYAT"
+            android:visibility="invisible"
+            android:textColor="@color/black"
+            tools:layout_editor_absoluteX="-12dp"
+            tools:layout_editor_absoluteY="503dp" />
+
+        <Button
+            android:id="@+id/buttontent"
+            android:layout_width="match_parent"
+            android:layout_height="73dp"
+            android:background="@color/white"
+            android:text="TENTANG KITA"
+            android:onClick="tentang"
+            android:layout_marginTop="500dp"
+            android:layout_marginStart="-420dp"
+            android:paddingLeft="40dp"
+            android:textColor="@color/black"
+            tools:layout_editor_absoluteX="-12dp"
+            tools:layout_editor_absoluteY="503dp" />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

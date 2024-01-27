@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/hasil"
+    tools:context=".hasil">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/penyaki"
+            android:layout_width="match_parent"
+            android:layout_height="39dp"
+            android:layout_marginTop="193dp"
+            android:background="@drawable/bentuk"
+            android:paddingStart="-280dp"
+            android:gravity="center"
+            android:text=""
+
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="360dp" />
+        <TextView
+            android:id="@+id/penya"
+            android:layout_width="match_parent"
+            android:layout_height="39dp"
+            android:layout_marginLeft="-175dp"
+            android:layout_marginTop="-39dp"
+            android:background="@drawable/bentuk"
+
+            android:gravity="center"
+            android:text="peny aaaaaaaaaaa"
+
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="360dp" />
+
+        <TextView
+            android:id="@+id/persentasi"
+            android:layout_width="match_parent"
+            android:layout_height="39dp"
+            android:layout_marginTop="-40dp"
+            android:layout_marginLeft="250dp"
+            android:gravity="center"
+            android:text="0%"
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="360dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="190dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/bentuk"
+            android:gravity="center_horizontal"
+            android:text="Detail"
+            android:padding="10dp"
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="360dp" />
+
+        <TextView
+            android:id="@+id/detailpenyakitgigi"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginTop="-155dp"
+            android:gravity="center_horizontal"
+            android:text="Detail"
+            android:textColor="@color/black"
+            android:textSize="10dp"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="360dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="190dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/bentuk"
+            android:gravity="center_horizontal"
+            android:padding="10dp"
+            android:text="Solusi"
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="360dp" />
+
+        <TextView
+            android:id="@+id/solusipenyakitgigi"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginTop="-155dp"
+            android:gravity="center_horizontal"
+            android:text="Solusi"
+            android:textColor="@color/black"
+            android:textSize="10dp"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="360dp" />
+
+
+        <Button
+            android:id="@+id/buttondiag"
+            android:layout_width="164dp"
+            android:layout_height="45dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="35dp"
+            android:textStyle="bold"
+            android:background="@drawable/panjang"
+            android:textColor="@color/black"
+            android:text="Diagnosa Ulang"
+            tools:layout_editor_absoluteX="26dp"
+            android:textSize="11dp"
+            tools:layout_editor_absoluteY="849dp" />
+
+        <Button
+            android:id="@+id/buttonkons"
+            android:layout_width="164dp"
+            android:layout_height="45dp"
+            android:layout_marginStart="180dp"
+            android:layout_marginTop="-45dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:background="@drawable/panjang"
+            android:text="Konsultasi?"
+            tools:layout_editor_absoluteX="26dp"
+            android:textSize="11dp"
+            tools:layout_editor_absoluteY="849dp" />
+
+    </LinearLayout>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

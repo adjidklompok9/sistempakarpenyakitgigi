@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/reg"
+    android:orientation="vertical"
+    tools:context=".register">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="350dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="-83dp">
+
+
+        <EditText
+            android:id="@+id/Namalengkap"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginEnd="40dp"
+            android:background="@drawable/panjang"
+            android:textColor="@color/black"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:paddingStart="15dp"
+            android:hint="Nama Lengkap"
+            android:textColorHint="@color/black"
+            tools:layout_editor_absoluteX="40dp"
+            tools:layout_editor_absoluteY="744dp" />
+
+        <EditText
+            android:id="@+id/usernamee"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginEnd="40dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/panjang"
+            android:textColor="@color/black"
+            android:ems="10"
+            android:textColorHint="@color/black"
+            android:inputType="textPersonName"
+            android:paddingStart="15dp"
+            android:hint="Username"
+            tools:layout_editor_absoluteX="40dp"
+            tools:layout_editor_absoluteY="744dp" />
+
+        <EditText
+            android:id="@+id/passwordd"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginEnd="40dp"
+            android:background="@drawable/panjang"
+            android:textColor="@color/black"
+            android:layout_marginTop="10dp"
+            android:ems="10"
+            android:textColorHint="@color/black"
+            android:inputType="textPassword"
+            android:paddingStart="15dp"
+            android:hint="Password" />
+
+        <EditText
+            android:id="@+id/nohp"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginEnd="40dp"
+            android:background="@drawable/panjang"
+            android:textColor="@color/black"
+            android:layout_marginTop="10dp"
+            android:ems="10"
+            android:textColorHint="@color/black"
+            android:inputType="textPersonName"
+            android:paddingStart="15dp"
+            android:hint="no.hp" />
+
+        <EditText
+            android:id="@+id/alamatt"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginEnd="40dp"
+            android:background="@drawable/panjang"
+            android:textColor="@color/black"
+            android:layout_marginTop="10dp"
+            android:ems="10"
+            android:textColorHint="@color/black"
+            android:inputType="textPersonName"
+            android:paddingStart="15dp"
+            android:hint="alamat" />
+
+        <Button
+            android:id="@+id/butdaftar"
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:layout_gravity="right"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="50dp"
+            android:text="Daftar"
+            android:textColor="@color/white"
+            android:background="@drawable/cusbut">
+
+        </Button>
+
+
+
+
+
+
+
+    </LinearLayout>
+
+</LinearLayout>
